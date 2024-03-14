@@ -1,0 +1,910 @@
+<!doctype html>
+<html lang="ko">
+
+<head>
+	<meta charset="UTF-8">
+	<title>HongSeoWon's Portfolio</title>
+
+	<link rel="stylesheet" href="css/style.css"/>
+
+	<link rel="shortcut icon" href="favicon.ico">
+	<link rel="icon" href="favicon.ico">
+
+	<script src="js/jquery-1.7.1.min.js"></script>
+	<script src="js/jquery-1.9.1.min.js"></script>
+	<script src="js/jquery.easing.1.3.min.js"></script>
+	<script src="js/jquery.ba-throttle-debounce.min.js"></script>
+	
+	<script src="js/jquery.Floater.js"></script>
+	<script src="js/typed.js"></script>
+	<script src="js/script.js"></script>
+	<script src="js/skill.js"></script>
+	<script src="js/portfolio_contents.js"></script>
+	
+</head>
+<body>
+	<!-- <div id="pop">
+		<div class="pop">
+			<p>수정 보완 중입니다. <br>
+				결과 물 위주로 봐주세요. <br>
+				감사합니다</p>
+		</div>
+		<button type="button">닫기</button>
+	</div> -->
+	<div id="wrap">
+		<div id="header">
+			<div id="nav">
+				<div class="logo"><a href="index.html"><img src="images/logo.png" width="65" height="65" alt="로고"></a></div>
+				<ul id="menu" class="cf">
+					<li class="on"><a href="#intro">INTRO</a></li>
+					<li><a href="#profile">PROFILE</a></li>
+					<li><a href="#portfolio">PORTFOLIO</a></li>		
+				</ul>
+				<!-- <a href="#" onclick="bookmark()" class="fay">FAVORITE</a> -->
+			</div>
+		</div><!-- id="header" -->
+		<div id="contents">
+			<div id="intro" class="mn">
+				<div class="tit">
+					<span class="type01"></span> <br>
+					
+					<span class="type02" style="font-size: 25px;"></span>
+                </div>
+                <div class="intro_img"><!-- <img src="images/profile_img01_2.jpg" width="550" alt=""> --></div>
+			</div>
+			<div id="profile" class="mn">
+				<div class="profile_wrap">
+                    <h2>PROFILE</h2>
+                    <div class="profile_contents">
+                        <div class="profile_img"><!-- <img src="images/profile_img02_5.jpg" width="500" alt=""> --></div>
+                        <div class="info">
+                            <div class="about">
+                                <h2>About</h2>
+                                <p><span>이름:</span> 홍서원 / HongSeoWon</p>
+                                <p><span>생년월일:</span> 2001.01.09</p>
+                                <p><span>연락처:</span> 010-8267-1509</p>
+                                <p><span>e-mail:</span> hongsw109@naver.com</p>
+                                <p><span>거주지:</span> 경기도 안양시</p>
+                            </div>
+                        </div>
+						<div class="skill">
+							<div id="content-wrap">
+								<div class="charts">
+									<h2>Skill</h2>
+					
+									 <!-- 포토샵-->
+									<div class="chart" id="Ps_c">
+										<div class="Outside Rotate_L">
+											<div class="Inside">
+												<div class="bgColor"></div>
+											</div>
+										</div>
+										<div class="Outside Rotate_R">
+											<div class="Inside">
+												<div class="bgColor"></div>
+											</div>
+										</div>
+										<div class="innerCont">
+											<img src="images/skill_ps.png" alt="포토샵" width="60">
+											<p class="text">
+												<span class="num">90</span><span class="percent">%</span>
+											</p>
+										</div>
+									</div>
+
+									<!-- 일러스트-->
+									<div class="chart" id="Ai_c">
+										<div class="Outside Rotate_L">
+											<div class="Inside">
+												<div class="bgColor"></div>
+											</div>
+										</div>
+										<div class="Outside Rotate_R">
+											<div class="Inside">
+												<div class="bgColor"></div>
+											</div>
+										</div>
+										<div class="innerCont">
+											<img src="images/skill_ai.png" alt="일러스트레이터" width="60">
+											<p class="text">
+												<span class="num">85</span><span class="percent">%</span>
+											</p>
+										</div>
+									</div>
+									
+									<!-- HTML5/CSS-->
+									<div class="chart" id="HTML5_c">
+										<div class="Outside Rotate_L">
+											<div class="Inside">
+												<div class="bgColor"></div>
+											</div>
+										</div>
+										<div class="Outside Rotate_R">
+											<div class="Inside">
+												<div class="bgColor"></div>
+											</div>
+										</div>
+										<div class="innerCont">
+											<img src="images/skill_html_css3.png" alt="HTML5_CSS3" width="60">
+											<p class="text">
+												<span class="num">95</span><span class="percent">%</span>
+											</p>
+										</div>
+									</div>
+					
+									
+									 <!-- 제이쿼리-->
+									<div class="chart" id="jquery_c">
+										<div class="Outside Rotate_L">
+											<div class="Inside">
+												<div class="bgColor"></div>
+											</div>
+										</div>
+										<div class="Outside Rotate_R">
+											<div class="Inside">
+												<div class="bgColor"></div>
+											</div>
+										</div>
+										<div class="innerCont">
+											<img src="images/skill_jquery.png" alt="제이쿼리" width="60">
+											<p class="text">
+												<span class="num">85</span><span class="percent">%</span>
+											</p>
+										</div>
+									</div>
+									
+								</div> 
+							</div> 
+						</div>
+                    </div>
+                    
+					
+                </div>
+			</div>
+			<div id="portfolio" class="mn">
+				<div class="portfolio_contents">
+					<div id="css" class="mn">
+						<div  class="css_contents"> 
+							<ul class="css_contents_wrap">
+								<li class="css01">
+									<div class="css_img">
+										<div class="pc_img"><img src="images/pc2_mockup.png" alt=""></div>
+
+										<div class="main_page01"><a href="project/01_discovery/index.html" target="_blank"><img src="images/discovery-index.png" width="558"  alt=""></a></div>
+									</div>
+									
+									<div class="text">
+										<img src="images/css_text_img.png" alt="">
+										<h4>discovery-expedition 리뉴얼</h4>
+										<div class="explain">
+											다소 복잡하게 보일 수 있는 레이아웃을 재구성하여 사용자 <br> 입장에서 더 편리하게 사이트를 이용할 수 있도록 리뉴얼하였습니다.
+										</div>
+										<div class="a_html">
+											<a href="project/01_discovery/index.html" target="_blank">index</a>
+											<a href="project/01_discovery/sub01.html" target="_blank">sub01</a>
+											<a href="project/01_discovery/sub02.html" target="_blank">sub02</a>
+											<a href="project/01_discovery/sub03.html" target="_blank">sub03</a>
+											<a href="project/01_discovery/sub04.html" target="_blank">sub04</a>
+											<a href="project/01_discovery/sub05.html" target="_blank">sub05</a>
+											<a href="project/01_discovery/login.html" target="_blank">login</a>
+										</div>
+										<div class="browsers_icon">
+											<ul>
+												<li><img src="images/chrome_icon.png" width="35" alt="chrome"></li>
+												<li><img src="images/firefox_icon.png" width="35" alt="firefox"></li>
+												<li><img src="images/ie_icon.png" width="35" alt="ie"></li>
+											</ul>
+										</div>
+									</div>
+								</li>
+								<li class="css02">
+									<div class="css_img">
+										<div class="pc_img"><img src="images/pc2_mockup.png" alt=""></div>
+
+										<div class="main_page01"><a href="#none" target="_blank"><img src="images/pc_prepare.png" width="558"  alt=""></a></div>
+									</div>
+									
+									<div class="text">
+										<img src="images/css_text_img.png" alt="">
+										<h4>준비 중입니다.</h4>
+										
+									</div>
+								</li>
+								<li class="css03">
+									<div class="css_img">
+										<div class="pc_img"><img src="images/pc2_mockup.png" alt=""></div>
+
+										<div class="main_page01"><a href="#none" target="_blank"><img src="images/pc_prepare.png" width="558"  alt=""></a></div>
+									</div>
+									
+									<div class="text">
+										<img src="images/css_text_img.png" alt="">
+										<h4>준비 중입니다.</h4>
+										
+									</div>
+								</li>
+							</ul>
+						</div>
+						
+						<ul class="buttonList01">
+							<li class="on"><span></span><a href="#none">css01</a></li>
+        					<li><span></span><a href="#none">css02</a></li>
+        					<li><span></span><a href="#none">css03</a></li>
+						</ul>
+					</div>
+
+					<div id="jquery" class="mn">
+						<div  class="jquery_contents"> 
+							<ul class="jquery_contents_wrap"> 
+								<li class="jquery01">
+									<div class="jquery_img">
+										<div class="pc_img"><img src="images/pc2_mockup.png" alt=""></div>
+
+										<div class="main_page02"><a href="project/02_health_center/index.html" target="_blank"><img src="images/health_center-index.png" width="558"  alt=""></a></div>
+									</div>
+									
+									<div class="text">
+										<img src="images/jquery_text_img.png" alt="">
+										<h4>안양시 보건소 리뉴얼</h4>
+										<div class="explain">
+											혼잡한 메뉴를 재구성하고, 자주 이용하는 메뉴를 배너 하단에 <br> 아이콘으로 배치하여 사용자가 사이트를 더욱 편리하게 이용할 수 <br> 있도록 리뉴얼하였습니다.
+										</div>
+										<div class="a_html">
+											<a href="project/02_health_center/index.html" target="_blank">index</a>
+											<a href="project/02_health_center//sub01.html" target="_blank">sub01</a>
+											<a href="project/02_health_center//login.html" target="_blank">login</a>
+										</div>
+										<div class="browsers_icon">
+											<ul>
+												<li><img src="images/chrome_icon.png" width="35" alt="chrome"></li>
+												<li><img src="images/firefox_icon.png" width="35" alt="firefox"></li>
+											</ul>
+										</div>
+									</div>
+								</li>
+								<li class="jquery02">
+									<div class="jquery_img">
+										<div class="pc_img"><img src="images/pc2_mockup.png" alt=""></div>
+
+										<div class="main_page02"><a href="#none" target="_blank"><img src="images/pc_prepare.png" width="558"  alt=""></a></div>
+									</div>
+									
+									<div class="text">
+										<img src="images/jquery_text_img.png" alt="">
+										<h4>준비 중입니다.</h4>
+										
+									</div>
+								</li>
+								<li class="jquery03">
+									<div class="jquery_img">
+										<div class="pc_img"><img src="images/pc2_mockup.png" alt=""></div>
+
+										<div class="main_page02"><a href="#none" target="_blank"><img src="images/pc_prepare.png" width="558"  alt=""></a></div>
+									</div>
+									
+									<div class="text">
+										<img src="images/jquery_text_img.png" alt="">
+										<h4>준비 중입니다.</h4>
+										
+									</div>
+								</li>
+							</ul>
+						</div>
+						
+						<ul class="buttonList02">
+							<li class="on"><span></span><a href="#none">jquery01</a></li>
+        					<li><span></span><a href="#none">jquery02</a></li>
+        					<li><span></span><a href="#none">jquery03</a></li>
+						</ul>
+					</div>
+
+					<div id="responsive" class="mn">
+						<div  class="responsive_contents"> 
+							<ul class="responsive_contents_wrap">
+								<li class="responsive01">
+									<div class="responsive_img">
+										<div class="pc_mockup01">
+											<div class="pc_img"><img src="images/pc2_mockup.png" alt=""></div>
+	
+											<div class="main_page03"><a href="project/03_vans/index.html" target="_blank"><img src="images/vans-index.png" width="412"  alt=""></a></div>
+										</div>
+
+										<div class="tablet_mockup01">
+											<div class="ta_img"><img src="images/tablet_mockup.png" height="280" alt=""></div>
+											<div class="main_page03_1"><a href="project/03_vans/index.html" target="_blank"><img src="images/VANS_ta.png" width="206"  alt=""></a></div>
+										</div>
+
+										<div class="mobile_mockup01">
+											<div class="mo_img"><img src="images/smartphon_mockup.png" height="230" alt=""></div>
+											<div class="main_page03_2"><a href="project/03_vans/index.html" target="_blank"><img src="images/VANS_mo.png" width="206"  alt=""></a></div>
+										</div>
+									</div>
+									
+									<script>
+										$(function(){
+											$('.tablet_mockup01 .main_page03_1').click(function(){
+												window.open("project/03_vans/index.html", "", "width=768, height=800, top=100, lwft=100");
+											});
+										});
+										$(function(){
+											$('.mobile_mockup01 .main_page03_2').click(function(){
+												window.open("project/03_vans/index.html", "", "width=480, height=800, top=100, lwft=100");
+											});
+										});
+									</script>
+
+									<div class="text">
+										<img src="images/responsive_text_img.png" alt="">
+										<h4>반스 (VANS) 리뉴얼</h4>
+										<div class="explain">
+											신발 및 의류 브랜드 반스를 세로 메뉴로 재구성하여  리뉴얼해보았습니다. (CSS)
+										</div>
+										<div class="a_html">
+											<a href="project/03_vans/index.html" target="_blank">index</a>
+										</div>
+										<div class="browsers_icon">
+											<ul>
+												<li><img src="images/chrome_icon.png" width="35" alt="chrome"></li>
+												<li><img src="images/firefox_icon.png" width="35" alt="firefox"></li>
+												<li><img src="images/ie_icon.png" width="35" alt="ie"></li>
+											</ul>
+										</div>
+									</div>
+								</li>
+								<li class="responsive02">
+									<div class="responsive_img">
+										<div class="pc_mockup02">
+											<div class="pc_img"><img src="images/pc2_mockup.png" alt=""></div>
+	
+											<div class="main_page03"><a href="project/04_cledor/index.html" target="_blank"><img src="images/cledor-index_pc.png" width="412"  alt=""></a></div>
+										</div>
+
+										<div class="tablet_mockup02">
+											<div class="ta_img"><img src="images/tablet_mockup.png" height="280" alt=""></div>
+											<div class="main_page03_1"><a href="project/04_cledor/index.html" target="_blank"><img src="images/cledor-index_ta.png" width="206"  alt=""></a></div>
+										</div>
+
+										<div class="mobile_mockup02">
+											<div class="mo_img"><img src="images/smartphon_mockup.png" height="230" alt=""></div>
+											<div class="main_page03_2"><a href="project/04_cledor/index.html" target="_blank"><img src="images/cledor-index_mo.png" width="206"  alt=""></a></div>
+										</div>
+									</div>
+									
+									<script>
+										$(function(){
+											$('.tablet_mockup02 .main_page03_1').click(function(){
+												window.open("project/04_cledor/index.html", "", "width=768, height=800, top=100, lwft=100");
+											});
+										});
+										$(function(){
+											$('.mobile_mockup02 .main_page03_2').click(function(){
+												window.open("project/04_cledor/index.html", "", "width=480, height=800, top=100, lwft=100");
+											});
+										});
+									</script>
+
+									<div class="text">
+										<img src="images/responsive_text_img.png" alt="">
+										<h4>끌레도르 (Cledor) 리뉴얼</h4>
+										<div class="explain">
+											아이스크림 브랜드 끌레도르의 메인페이지의 컨텐츠를 추가하여 <br> 반응형으로 리뉴얼하였습니다. (jquery)
+										</div>
+										<div class="a_html">
+											<a href="project/04_cledor/index.html" target="_blank">index</a>
+										</div>
+										<div class="browsers_icon">
+											<ul>
+												<li><img src="images/chrome_icon.png" width="35" alt="chrome"></li>
+												<li><img src="images/firefox_icon.png" width="35" alt="firefox"></li>
+												<li><img src="images/ie_icon.png" width="35" alt="ie"></li>
+											</ul>
+										</div>
+									</div>
+								</li>
+								<li class="responsive03">
+									<div class="responsive_img">
+										<div class="pc_mockup03">
+											<div class="pc_img"><img src="images/pc2_mockup.png" alt=""></div>
+	
+											<div class="main_page03"><a href="#none" target="_blank"><img src="images/pc_prepare.png" width="412"  alt=""></a></div>
+										</div>
+
+										<div class="tablet_mockup03">
+											<div class="ta_img"><img src="images/tablet_mockup.png" height="280" alt=""></div>
+											<div class="main_page03_1"><a href="#none" target="_blank"><img src="images/ta_prepare.png" width="206"  alt=""></a></div>
+										</div>
+
+										<div class="mobile_mockup03">
+											<div class="mo_img"><img src="images/smartphon_mockup.png" height="230" alt=""></div>
+											<div class="main_page03_2"><a href="#non" target="_blank"><img src="images/mo_prepare.png" width="206"  alt=""></a></div>
+										</div>
+									</div>
+									
+									<!-- <script>
+										$(function(){
+											$('.tablet_mockup03 .main_page03_1').click(function(){
+												window.open("project/04_cledor/index.html", "", "width=768, height=800, top=100, lwft=100");
+											});
+										});
+										$(function(){
+											$('.mobile_mockup03 .main_page03_2').click(function(){
+												window.open("project/04_cledor/index.html", "", "width=480, height=800, top=100, lwft=100");
+											});
+										});
+									</script> -->
+
+									<div class="text">
+										<img src="images/responsive_text_img.png" alt="">
+										<h4>준비 중입니다.</h4>
+								
+									</div>
+								</li>
+							</ul>
+						</div>
+						
+						<ul class="buttonList03">
+							<li class="on"><span></span><a href="#none">responsive01</a></li>
+        					<li><span></span><a href="#none">responsive02</a></li>
+        					<li><span></span><a href="#none">responsive03</a></li>
+						</ul>
+					</div>
+
+					<div id="mobile" class="mn">
+						<div  class="mobile_contents"> 
+							<ul class="mobile_contents_wrap">
+								<li class="mobile01">
+									<div class="mobile_img">
+										<div class="mo_img"><img src="images/smartphon_mockup02.png" alt=""></div>
+
+										<div class="main_page04"><a href="#none" target="_blank"><img src="images/mo_prepare.png" width="234"  alt=""></a></div>
+									</div>
+									
+									<div class="text">
+										<img src="images/mobile_text_img.png" alt="">
+										<h4>CARRY 기획</h4>
+										<!-- <div class="explain">
+											여행 도우미 CARRY를 기획, 제작중입니다. 
+											아직 미완성이지만, 처음으로 기획하고 제작한 모바일 사이트입니다.
+											(갤럭시20+ 기준으로 제작하였습니다.)
+										</div> -->
+									</div>
+								</li>
+								<li class="mobile02">
+									<div class="mobile_img">
+										<div class="mo_img"><img src="images/smartphon_mockup02.png" alt=""></div>
+
+										<div class="main_page04"><a href="#none" target="_blank"><img src="images/mo_prepare.png" width="234"  alt=""></a></div>
+									</div>
+									
+									<div class="text">
+										<img src="images/mobile_text_img.png" alt="">
+										<h4>준비 중입니다.</h4>
+										
+									</div>
+								</li>
+								<li class="mobile03">
+									<div class="mobile_img">
+										<div class="mo_img"><img src="images/smartphon_mockup02.png" alt=""></div>
+
+										<div class="main_page04"><a href="#none" target="_blank"><img src="images/mo_prepare.png" width="234"  alt=""></a></div>
+									</div>
+									
+									<div class="text">
+										<img src="images/mobile_text_img.png" alt="">
+										<h4>준비 중입니다.</h4>
+										
+									</div>
+								</li>
+							</ul>
+						</div>
+						
+						<ul class="buttonList04">
+							<li class="on"><span></span><a href="#none">mobile01</a></li>
+        					<li><span></span><a href="#none">mobile02</a></li>
+        					<li><span></span><a href="#none">mobile03</a></li>
+						</ul>
+					</div>
+					
+					
+					<div id="all" class="mn">
+						<div class="text">
+							<img src="images/all_text_img.png" alt="">
+						</div>
+						<div id="all_wrap">
+							<div class="tab_menu">
+								<ul class="all_tab fc">
+									<li class="tab01 tab_on"><a href="#none">ALL</a></li>
+									<li class="tab02"><a href="#none">CSS</a></li>
+									<li class="tab02"><a href="#none">jQuery</a></li>
+									<li class="tab02"><a href="#none">Responsive</a></li>
+									<li class="tab02"><a href="#none">Mobile</a></li>
+								</ul>
+							</div>
+							<div class="all_tab_contents fc">
+								<div class="all_contents">
+									<ul>
+										<li class="cont">
+											<img src="images/cledor-index_pc.png" width="347" alt="">
+											<div>
+												<p>
+													<span>끌레도르 리뉴얼</span> <br>
+													2021/03 <br>
+													index
+												</p>
+											</div>
+											<a href="project/04_cledor/index.html" target="_blank"></a>		
+										</li>
+										<li class="cont">
+											<img src="images/health_center-index.png" width="347" alt="">
+											<div>
+												<p>
+													<span>안양시 보건소 리뉴얼</span> <br>
+													2021/03 <br>
+													index, sub01, login
+												</p>
+											</div>
+											<a href="project/02_health_center/index.html" target="_blank"></a>
+										</li>
+										<li class="cont">
+											<img src="images/discovery-index.png" width="347" alt="">
+											<div>
+												<p>
+													<span>디스커버리 리뉴얼</span> <br>
+													2021/03 <br>
+													index, sub01, sub02, <br> sub03, sub04, sub05, login
+												</p>
+											</div>
+											<a href="project/01_discovery/index.html" target="_blank"></a>
+										</li>
+									</ul>
+									<ul>
+										<li class="cont">
+											<img src="images/vans-index.png" width="347" alt="">
+											<div>
+												<p>
+													<span>반스 리뉴얼</span> <br>
+													2021/02 <br>
+													index
+												</p>
+											</div>
+											<a href="project/03_vans/index.html" target="_blank"></a>
+										</li>
+										<li class="cont">
+											<img src="images/damcha-index.png" width="347" alt="">
+											<div>
+												<p>
+													<span>다고담차 리뉴얼</span> <br>
+													2021/01 <br>
+													index
+												</p>
+											</div>
+											<a href="project/00_damcha/index.html" target="_blank"></a>
+										</li>
+										<li>
+											<img src="images/pc_prepare.png" width="347" height="195px" alt="">
+											<!-- <div>
+												<p>
+													<span>리뉴얼</span> <br>
+													2021/01 <br>
+													index
+												</p>
+											</div>
+											<a href="#none" target="_blank"></a> -->
+										</li>
+									</ul>
+								</div>
+								<div class="css_contents">
+									<ul>
+										<li class="cont">
+											<img src="images/discovery-index.png" width="347" alt="">
+											<div>
+												<p>
+													<span>디스커버리 리뉴얼</span> <br>
+													2021/03 <br>
+													index, sub01, sub02, <br> sub03, sub04, sub05, login
+												</p>
+											</div>
+											<a href="project/01_discovery/index.html" target="_blank"></a>
+										</li>
+										<li class="cont">
+											<img src="images/damcha-index.png" width="347" alt="">
+											<div>
+												<p>
+													<span>다고담차 리뉴얼</span> <br>
+													2021/01 <br>
+													index
+												</p>
+											</div>
+											<a href="project/00_damcha/index.html" target="_blank"></a>
+										</li>
+										<li>
+											<img src="images/pc_prepare.png" width="347" height="195px" alt="">
+											<!-- <div>
+												<p>
+													<span>리뉴얼</span> <br>
+													2021/01 <br>
+													index
+												</p>
+											</div>
+											<a href="#none" target="_blank"></a> -->
+										</li>
+									</ul>
+									<ul>
+										<li>
+											<img src="images/pc_prepare.png" width="347" height="195px" alt="">
+											<!-- <div>
+												<p>
+													<span>리뉴얼</span> <br>
+													2021/01 <br>
+													index
+												</p>
+											</div>
+											<a href="#none" target="_blank"></a> -->
+										</li>
+										<li>
+											<img src="images/pc_prepare.png" width="347" height="195px" alt="">
+											<!-- <div>
+												<p>
+													<span>리뉴얼</span> <br>
+													2021/01 <br>
+													index
+												</p>
+											</div>
+											<a href="#none" target="_blank"></a> -->
+										</li>
+										<li>
+											<img src="images/pc_prepare.png" width="347" height="195px" alt="">
+											<!-- <div>
+												<p>
+													<span>리뉴얼</span> <br>
+													2021/01 <br>
+													index
+												</p>
+											</div>
+											<a href="#none" target="_blank"></a> -->
+										</li>
+									</ul>
+								</div>
+								<div class="jquery_contents">
+									<ul>
+										<li class="cont">
+											<img src="images/health_center-index.png" width="347" alt="">
+											<div>
+												<p>
+													<span>안양시 보건소 리뉴얼</span> <br>
+													2021/03 <br>
+													index, sub01, login
+												</p>
+											</div>
+											<a href="project/02_health_center/index.html" target="_blank"></a>
+										</li>
+										<li>
+											<img src="images/pc_prepare.png" width="347" height="195px" alt="">
+											<!-- <div>
+												<p>
+													<span>리뉴얼</span> <br>
+													2021/01 <br>
+													index
+												</p>
+											</div>
+											<a href="#none" target="_blank"></a> -->
+										</li>
+										<li>
+											<img src="images/pc_prepare.png" width="347" height="195px" alt="">
+											<!-- <div>
+												<p>
+													<span>리뉴얼</span> <br>
+													2021/01 <br>
+													index
+												</p>
+											</div>
+											<a href="#none" target="_blank"></a> -->
+										</li>
+									</ul>
+									<ul>
+										<li>
+											<img src="images/pc_prepare.png" width="347" height="195px" alt="">
+											<!-- <div>
+												<p>
+													<span>리뉴얼</span> <br>
+													2021/01 <br>
+													index
+												</p>
+											</div>
+											<a href="#none" target="_blank"></a> -->
+										</li>
+										<li>
+											<img src="images/pc_prepare.png" width="347" height="195px" alt="">
+											<!-- <div>
+												<p>
+													<span>리뉴얼</span> <br>
+													2021/01 <br>
+													index
+												</p>
+											</div>
+											<a href="#none" target="_blank"></a> -->
+										</li>
+										<li>
+											<img src="images/pc_prepare.png" width="347" height="195px" alt="">
+											<!-- <div>
+												<p>
+													<span>리뉴얼</span> <br>
+													2021/01 <br>
+													index
+												</p>
+											</div>
+											<a href="#none" target="_blank"></a> -->
+										</li>
+									</ul>
+								</div>
+								<div class="responsive_contents">
+									<ul>
+										<li class="cont">
+											<img src="images/cledor-index_pc.png" width="347" alt="">
+											<div>
+												<p>
+													<span>끌레도르 리뉴얼</span> <br>
+													2021/03 <br>
+													index
+												</p>
+											</div>
+											<a href="project/04_cledor/index.html" target="_blank"></a>	
+										</li>
+										<li class="cont">
+											<img src="images/vans-index.png" width="347" alt="">
+											<div>
+												<p>
+													<span>반스 리뉴얼</span> <br>
+													2021/02 <br>
+													index
+												</p>
+											</div>
+											<a href="project/03_vans/index.html" target="_blank"></a>
+										</li>
+										<li>
+											<img src="images/pc_prepare.png" width="347" height="195px" alt="">
+											<!-- <div>
+												<p>
+													<span>리뉴얼</span> <br>
+													2021/01 <br>
+													index
+												</p>
+											</div>
+											<a href="#none" target="_blank"></a> -->
+										</li>
+									</ul>
+									<ul>
+										<li>
+											<img src="images/pc_prepare.png" width="347" height="195px" alt="">
+											<!-- <div>
+												<p>
+													<span>리뉴얼</span> <br>
+													2021/01 <br>
+													index
+												</p>
+											</div>
+											<a href="#none" target="_blank"></a> -->
+										</li>
+										<li>
+											<img src="images/pc_prepare.png" width="347" height="195px" alt="">
+											<!-- <div>
+												<p>
+													<span>리뉴얼</span> <br>
+													2021/01 <br>
+													index
+												</p>
+											</div>
+											<a href="#none" target="_blank"></a> -->
+										</li>
+										<li>
+											<img src="images/pc_prepare.png" width="347" height="195px" alt="">
+											<!-- <div>
+												<p>
+													<span>리뉴얼</span> <br>
+													2021/01 <br>
+													index
+												</p>
+											</div>
+											<a href="#none" target="_blank"></a> -->
+										</li>
+									</ul>
+								</div>
+								<div class="mobile_contents">
+									<ul>
+										<li>
+											<img src="images/pc_prepare.png" width="347" height="195px" alt="">
+											<!-- <div>
+												<p>
+													<span>리뉴얼</span> <br>
+													2021/01 <br>
+													index
+												</p>
+											</div>
+											<a href="#none" target="_blank"></a> -->
+										</li>
+										<li>
+											<img src="images/pc_prepare.png" width="347" height="195px" alt="">
+											<!-- <div>
+												<p>
+													<span>리뉴얼</span> <br>
+													2021/01 <br>
+													index
+												</p>
+											</div>
+											<a href="#none" target="_blank"></a> -->
+										</li>
+										<li>
+											<img src="images/pc_prepare.png" width="347" height="195px" alt="">
+											<!-- <div>
+												<p>
+													<span>리뉴얼</span> <br>
+													2021/01 <br>
+													index
+												</p>
+											</div>
+											<a href="#none" target="_blank"></a> -->
+										</li>
+									</ul>
+									<ul>
+										<li>
+											<img src="images/pc_prepare.png" width="347" height="195px" alt="">
+											<!-- <div>
+												<p>
+													<span>리뉴얼</span> <br>
+													2021/01 <br>
+													index
+												</p>
+											</div>
+											<a href="#none" target="_blank"></a> -->
+										</li>
+										<li>
+											<img src="images/pc_prepare.png" width="347" height="195px" alt="">
+											<!-- <div>
+												<p>
+													<span>리뉴얼</span> <br>
+													2021/01 <br>
+													index
+												</p>
+											</div>
+											<a href="#none" target="_blank"></a> -->
+										</li>
+										<li>
+											<img src="images/pc_prepare.png" width="347" height="195px" alt="">
+											<!-- <div>
+												<p>
+													<span>리뉴얼</span> <br>
+													2021/01 <br>
+													index
+												</p>
+											</div>
+											<a href="#none" target="_blank"></a> -->
+										</li>
+									</ul>
+								</div>
+							</div>              
+						</div>
+					</div>
+				</div>
+
+			</div>
+
+		</div>
+	</div><!-- id="wrap" -->
+	
+	<div id="floatdiv">
+		<ul>
+			<li class="active"><span id="btn01">intro</span></li>
+			<li><span id="btn02">profile</span></li>
+			<li><span id="btn03">portfolio</span></li>
+			<li><span id="btn04">css</span></li>
+			<li><span id="btn05">jquery</span></li>
+			<li><span id="btn06">responsive</span></li>
+			<li><span id="btn07">mobile</span></li>
+			<li><span id="btn08">all</span></li>
+		</ul>
+	</div>
+	
+
+</body>
+
+</html>

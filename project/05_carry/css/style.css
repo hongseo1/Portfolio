@@ -1,0 +1,281 @@
+@charset "utf-8";
+
+html{overflow-y: hidden;}
+*{margin: 0; padding: 0;border: 0;}
+body{font-family: "맑은고딕", sans-serif;}
+#wrap{width: 100%; margin: 0 auto;}
+ul,li{list-style: none;}
+a{text-decoration: none;}
+.fc:after{content: ''; display: block; clear: both;}
+
+#home{width: 100%; height: 100%;}
+
+/*header*/
+#home #header{
+  width: 100%; height: 120px;
+  margin: 0 auto;
+  padding-top: 5px;
+}
+
+#home #header .home_logo{
+  width: 128px; height: 30px;
+  margin: 0 auto;
+}
+
+#home #header .menu{
+  width: 30px;
+  margin: 13px 0px 0px 15px;
+}
+
+#home #header .search{
+  width: 262px;
+  margin: 0 auto; margin-top: 15px;
+  position: relative;
+}
+
+#home #header .search input{
+  width: 230px; height: 30px;
+  margin-right: 10px;
+  padding-left: 10px;
+
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+}
+
+#home #header .search .search_img{
+  position: absolute; bottom: 5px;
+  width: 20px; height: 20px;
+}
+
+/*contetn*/
+#content{ 
+  padding: 0px;
+  background: #ffffff;
+}
+
+/*배너*/
+#main_img{background-color: aquamarine;
+  width: 100%; height: 300px;
+  margin: 0 auto;
+  position: relative;
+  overflow: hidden;
+}
+
+#main_img #slide_img_wrap1 ul li{
+  float: left;
+  width: 100%;
+  position: absolute;
+}
+
+#main_img #slide_img_wrap1 ul li a{
+  text-indent: -9999px;
+  display: block;
+}
+
+#main_img #slide_img_wrap1 ul li a img{
+  width: 100%; height: 300px;
+  display: block;
+}
+
+#main_img #slide_img_wrap1 .visual_0{left: 0;}
+
+#main_img #slide_img_wrap1 .visual_1{left: 100%;}
+
+#main_img #slide_img_wrap1 .visual_2{left: 200%;}
+
+#main_img .slide_num{
+  width: 80px; height: 20px;
+  margin: 0 auto;
+  position: absolute; bottom: 2px; left: 50%;
+  margin-left: -22px;
+  opacity: 0.7;
+}
+
+#main_img .slide_num ul li{
+  background: url(../img/slide_num.png) no-repeat center center;
+  width: 10px; height: 10px;
+  background-size: 10px 10px;
+  float: left;
+  padding-left: 5px;
+}
+
+#main_img .slide_num ul li.on{
+  background: url(../img/slide_num_over.png) no-repeat center center;
+  width: 10px; height: 10px;
+  background-size: 10px 10px;
+  float: left;
+}
+
+#main_img .slide_num ul li a{
+  text-indent: -9999px;
+  display: block;
+}
+
+/*이전 다음 버튼*/
+#main_img #btnImg{
+  position: relative; top: 50%;
+  margin-top: -15px;
+  width: 100%;
+}
+
+#main_img #btnImg .next{
+  position: absolute; right: 15px;
+  cursor: pointer;
+}
+
+#main_img #btnImg .prev{
+  position: absolute; left: 15px;
+  cursor: pointer;
+}
+
+/*스와이퍼 영역 아이콘*/
+#swiper{margin-top: 30px;}
+
+.main #icon_swiper{
+  width: 100%; height: 125px;
+  position: relative;
+  overflow: hidden;
+  margin-top: 20px;
+/*   padding-top: 25px; */
+}
+
+.main #icon_swiper .swiper-container{  
+  width: 100%; height: 100px;
+  overflow: visible !important;
+  cursor: pointer;
+}
+
+.main #icon_swiper .swiper-slide a{
+  display: block;
+  width: 100%; height: 100%;
+}
+
+.main #icon_swiper .swiper-slide a div:first-child{
+  width: 100px; height: 100px;
+  margin: 0 auto;
+}
+
+.main #icon_swiper .swiper-slide a .text{
+  text-align: center;
+  font-size: 13px;
+  color: #666666;
+  padding-top: 3px;
+  font-weight: 400;
+}
+
+.main #icon_swiper .swiper-slide a .icon1{
+  background: url(../images/travel_icon01.png) no-repeat;
+}
+
+.main #icon_swiper .swiper-slide a .icon2{
+  background: url(../images/travel_icon02_1.png) no-repeat;
+  background-size: cover;
+}
+
+.main #icon_swiper .swiper-slide a .icon3{
+  background: url(../images/travel_icon03_1.png) no-repeat;
+  background-size: cover;
+}
+
+.main #icon_swiper .swiper-slide a .icon4{
+  background: url(../images/travel_icon04_1.png) no-repeat;
+  background-size: cover;
+}
+
+.main #icon_swiper .swiper-slide a .icon5{
+  background: url(../images/travel_icon05_1.png) no-repeat;
+  background-size: cover;
+}
+
+.main #icon_swiper .swiper-slide a .icon6{
+  background: url(../images/travel_icon06_1.png) no-repeat;
+  background-size: cover;
+}
+
+
+/*여행지 예보*/
+#travel_info{margin-top: 30px;}
+
+#travel_info form{
+  background-color: #f5f5f5;
+
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  margin: 0 15px;
+}
+
+#travel_info .info01{padding: 15px;}
+
+#travel_info .info01 h4{ 
+  float: left;
+  margin-right: 26px; margin-top: 18px;
+}
+
+#travel_info .info01 .info01_content{
+  width: 40%; height: 30px;
+  border: 1px solid #000000;
+  outline: none;
+  margin-right: 10px; margin-left: 10px;
+}
+
+#travel_info .info02{padding: 15px;}
+
+#travel_info .info02 h4{ 
+  float: left;
+  margin-right: 20px; margin-top: 5px;
+}
+
+#travel_info .info02 .info02_content{
+  width: 60%; height: 30px;
+  border: 1px solid #000000;
+  outline: none;
+  margin-right: 10px;
+  display: block;
+}
+
+#travel_info .info02 div{float: left;}
+
+#travel_info .info02 div.search{
+  margin-left: 85px; margin-top: 10px;
+}
+
+#travel_info .info02 div.button{ 
+
+}
+
+
+#travel_info .info03 h4{
+  margin-right: 20px; margin-top: 5px;
+}
+
+#travel_info .info03 .info03_content{
+  width: 130px; height: 30px;
+  border: 1px solid #000000;
+  outline: none;
+  margin-right: 20px; margin-top: 20px;
+  float: left;
+}
+
+/*recommend*/
+#recommend{
+  margin: 0 auto; margin-top: 30px;
+}
+
+#recommend .recommend_cont{ background-color: aqua;
+  width: 100%;
+  margin: 0 15px 0px 0px;
+}
+
+#recommend .recommend_cont li{
+  width: 100%; height: 200px;
+
+}
+
+#recommend .recommend_cont li a{
+  display: block;
+  width: 100%; height: 200px;
+}
+
+#recommend .recommend_cont li img{
+  width: 100%; height: 200px;
+}

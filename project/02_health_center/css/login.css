@@ -1,0 +1,188 @@
+@charset "utf-8";
+
+#contents{ 
+    width: 100%; 
+    margin: 0 auto;
+    background: url(../images/login_bg.png) no-repeat top center;
+}
+
+#contents>#cont01{ 
+    width: 1200px; 
+    margin: 0 auto;
+}
+
+#cont01>#login_tit{ 
+    width: 1200px; height: 130px;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 130px;
+}
+#cont01>#login_tit>h1{
+    color: white;
+}
+
+#cont01>#login_box{
+    width: 1198px; height: 520px;
+    margin: 0 auto; margin-top: 30px;
+    border: 1px solid #002541;
+    background-color: white;
+}
+
+#login_box>.box01{ 
+    float: left;
+    width: 369px; height: 520px;
+}
+#login_box>.box01>.box_tit{
+    width: 369px;
+    margin-top: 80px; 
+    text-align: center;
+}
+#login_box>.box01>.box_tit>h2{margin-bottom: 20px;}
+#login_box>.box01>form{
+    margin-top: 30px; 
+}
+#login_box>.box01>form>input{
+    display: block;
+    width: 200px; height: 45px;
+    margin: 0 auto; margin-bottom: 15px;
+    padding-left: 10px;
+    outline: 0;
+    border: 1px solid #002541;
+
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+#login_box>.box01>form>input.login_but{
+    padding-left: 0;
+    height: 50px;
+    background-color: #002541;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+#login_box>.box01>.id_pw_search{
+    width: 369px;
+    text-align: center;
+}
+#login_box>.box01>.id_pw_search>a{
+    color: #002541;
+    text-align: center;
+    font-size: 14px;
+}
+#login_box>.box01>.id_pw_search>a:nth-child(1):after{
+    content: ' | ';
+    color: #8f8f8f;
+}
+
+#login_box>.or_img01{
+    float: left;
+}
+
+#login_box>.box02{
+    float: left;
+    width: 369px;
+}
+#login_box>.box02>.box_tit{
+    width: 369px;
+    margin-top: 80px;
+    text-align: center;
+}
+#login_box>.box02>.box_tit>.tit_icon{
+    width: 300px; 
+    margin: 0 auto; margin-top: 50px;
+}
+#login_box>.box02>.box_tit>.tit_icon h2{
+    font-size: 18px;
+    height: 50px;
+    line-height: 50px;
+    
+}
+#login_box>.box02>.box_tit>.tit_icon>.icon01{
+    float: left;
+    width: 140px; height: 132px;
+    margin-right: 20px;
+}
+#login_box>.box02>.box_tit>.tit_icon>.icon02{
+    float: left;
+    width: 140px; height: 132px;
+}
+/* #login_box>.box02>form{
+    width: 300px;
+    margin: 0 auto; margin-bottom: 30px;
+}
+#login_box>.box02>form>input{
+    width: 140px; height: 50px;
+    background-color: #002541;
+    color: white;
+    margin-right: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+#login_box>.box02>form>input:last-child{margin-right: 0;} */
+#login_box>.box02>.box02_text{
+    margin-top: 50px;
+}
+#login_box>.box02>.box02_text>p{
+    font-size: 14px;
+}
+
+#login_box>.or_img02{
+    float: left;
+}
+
+#login_box>.box03{
+    float: left;
+    width: 368px; height: 520px;
+}
+#login_box>.box03>.box_tit{
+    width: 369px;
+    margin-top: 80px;
+    text-align: center;
+}
+#login_box>.box03>.box03_sns{
+    width: 200px;
+    margin: 0 auto; margin-top: 30px;
+}
+#login_box>.box03>.box03_sns>ul>li{
+    width: 200px; height: 50px;
+    margin-bottom: 10px;
+}
+#login_box>.box03>.box03_sns>ul>li>span{ 
+    display: block;
+    width: 50px; height: 50px;
+    float: left;
+    position: relative;
+}
+
+#login_box>.box03>.box03_sns>ul>li>span>img{
+    display: block;
+    width: 24px; height: 24px;
+    position: absolute; top: 50%; left: 50%;
+    margin-top: -12px; margin-left: -12px;
+}
+
+#login_box>.box03>.box03_sns>ul>li>a{
+    display: block;
+    height: 50px;
+    line-height: 50px;
+    font-size: 16px;
+    color: white;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+#login_box>.box03>.box03_sns>ul>li.sns_f{
+    background-color: #3b5998;
+}
+#login_box>.box03>.box03_sns>ul>li.sns_g{
+    background-color: #cc3732;
+}
+#login_box>.box03>.box03_sns>ul>li.sns_n{
+    background-color: #1ec800;
+}
+#login_box>.box03>.box03_sns>ul>li.sns_k{
+    background-color: #ffeb00;
+}
+
+#login_box_b{
+    margin-top: 30px;
+}

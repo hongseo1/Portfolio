@@ -1,0 +1,739 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Discovery-Expedition</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.10.2/css/all.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.10.2/css/v4-shims.css">
+</head>
+<body>
+    <div id="wrap">
+        <div id="quick_menu">
+            <div class="quickBar"> <!-- 로그인, 회원가입 추가 -->
+                <label class="user">
+                    <input type="checkbox">
+                    <div class="icon"><i class="fas fa-user"></i></div>
+                    <div class="login">
+                        <a href="login.html">Log_In</a>
+                        <a href="#none">회원가입</a>
+                        <a href="#none">마이 페이지</a>
+                    </div>
+                </label>
+
+                <label class="cart">
+                    <input type="checkbox">
+                    <div class="icon"><i class="fas fa-shopping-cart"></i></div>
+                    <div class="shopping_cart">
+                        <a href="#none">장바구니에 담은 상품이 없습니다.</a>
+                    </div>
+                </label>
+
+                <label class="clock">
+                    <input type="checkbox">
+                    <div class="icon"><i class="fas fa-clock"></i></div>
+                    <div class="time">
+                        <a href="#none">최근 본 상품이 없습니다.</a>
+                    </div>
+                </label>
+                
+                <div class="top_but"><a href="#top"><img src="images/top_but2.png" alt="top버튼"></a></div>
+            </div>
+        </div>
+
+        <header>
+            <!-- <input type="chackbox" id="ham_but"><label for="ham_but">&equiv;</label> -->
+            <div  id="header">
+                <div id="nav_wrap" class="fc">
+                    <h1 class="top_logo">
+                        <a href="index.html"><img src="images/logo.png" alt="디스커버리 로고"></a>
+                    </h1>
+                    <nav class="nav">
+                        <div class="sub_drop"><span></span></div>
+                        <div class="meun_drop">
+                            <ul class="fc">
+                                <li><a href="sub01.html">MAN</a>
+                                    <ul>
+                                        <li><a href="#none">신상품</a></li>
+                                        <li><a href="#none">아웃터</a></li>
+                                        <li><a href="#none">상의</a></li>
+                                        <li><a href="#none">하의</a></li>
+                                        <li><a href="#none">트레이닝웨어</a></li>
+                                    </ul>
+                                </li>
+            
+                                <li><a href="sub02.html">WOMEN</a>
+                                    <ul>
+                                        <li><a href="#none">신상품</a></li>
+                                        <li><a href="#none">아웃터</a></li>
+                                        <li><a href="#none">상의</a></li>
+                                        <li><a href="#none">하의</a></li>
+                                        <li><a href="#none">트레이닝웨어</a></li>
+                                    </ul>
+                                </li>
+                
+                                <li><a href="sub03.html">KIDS</a>
+                                    <ul>
+                                        <li><a href="#none">신상품</a></li>
+                                        <li><a href="#none">신학기가방</a></li>
+                                        <li><a href="#none">아웃터</a></li>
+                                        <li><a href="#none">상의</a></li>
+                                        <li><a href="#none">하의</a></li>
+                                        <li><a href="#none">트레이닝웨어</a></li>
+                                        <li><a href="#none">슈즈</a></li>
+                                        <li><a href="#none">용품</a></li>
+                                    </ul>
+                                </li>
+                            
+                                <li><a href="sub04.html">SHOES</a>
+                                    <ul>
+                                        <li><a href="#none">신상품</a></li>
+                                        <li><a href="#none">BUCKT(버킷)</a></li>
+                                        <li><a href="#none">JOGGER(조거)</a></li>
+                                        <li><a href="#none">라이프스타일</a></li>
+                                        <li><a href="#none">슬리퍼/샌들</a></li>
+                                    </ul>
+                                </li>
+                         
+                                <li><a href="sub05.html">ACC</a>
+                                    <ul>
+                                        <li><a href="#none">신상품</a></li>
+                                        <li><a href="#none">가방</a></li>
+                                        <li><a href="#none">모자</a></li>
+                                        <li><a href="#none">용품</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                    <div class="search">
+                        <input type="search" id="search" placeholder="검색">
+                        <label for="search"><img src="images/bg_search.png" width="25" height="25"  alt=""></label>
+                    </div>
+                </div>
+    
+            </div>  <!-- id="header" -->
+        </header>
+    
+        <div id="main_contents">
+            
+            <div id="main_bn">
+                <div> <!-- width 100% height 970px -->
+                    <video class="mainVideo" autoplay loop muted poster='images/main_bn.jpg'>
+                        <source src="video/bn2_1920.mp4" type="video/mp4">
+                    </video>
+                </div> 
+                <div class="Video_bottom_bg">
+                    <a href="#content01"><i class="fas fa-angle-double-down"></i></a>
+                    <!-- <i class="fa fa-angle-down"></i> -->
+                </div>
+            </div>
+
+            <div id="content01">
+                <h2>Main Items</h2>
+                <input type="radio" id="new" name="tab" checked="checked">
+                <input type="radio" id="best" name="tab">
+                <input type="radio" id="md" name="tab">
+                <section class="tab_mu_bg">
+                    <div class="tab_menu">
+                        <label for="new">NEW ARRIVAL</label>
+                        <label for="best">BEST SELLER</label>
+                        <label for="md">MD'S CHOICE</label>
+                    </div>
+                </section>
+                <div class="tab_content">
+                    <div class="p_n_but">
+                       <div class="p_but"> 
+                           <img src="images/btn_prev01.png" alt="이전 버튼">
+                        </div>
+                       <div class="n_but"> 
+                           <img src="images/btn_next01.png" alt="다음 버튼">
+                        </div>
+                    </div>
+                    <ul class="fc">
+                        <li>
+                            <a href="#none">
+                                <div>
+                                    <img src="images/bucket.png" alt="버킷 디워커 V2">
+                                    <p class="plus_bg"><span><i class="fas fa-plus"></i></span></p>
+                                </div>
+                                <div>
+                                    <p class="bold ellipsis1">버킷 디워커 V2</p>
+                                </div>
+                            </a>
+                            <p class="color">139,000원</p>
+                        </li>
+                        <li>
+                            <a href="#none">
+                                <div>
+                                    <img src="images/pictor.png" alt="픽토르 구스다운 경량패딩">
+                                    <p class="plus_bg"><span><i class="fas fa-plus"></i></span></p>
+                                </div>
+                                <div>
+                                    <p class="bold ellipsis1">픽토르 U 구스다운 경량패딩</p>
+                                </div>
+                            </a>
+                            <p class="color">159,000원</p>
+                        </li>
+                        <li>
+                            <a href="#none">
+                                <div>
+                                    <img src="images/loversHd.png" alt="러버스 베이직 후드집업">
+                                    <p class="plus_bg"><span><i class="fas fa-plus"></i></span></p>
+                                </div>
+                                <div>
+                                    <p class="bold ellipsis1">러버스 베이직 후드집업</p>
+                                </div>
+                            </a>
+                            <p class="color">119,000원</p>
+                        </li>
+                        <li>
+                            <a href="#none">
+                                <div>
+                                    <img src="images/tech_hd_fleece.png" alt="테그 남성 플리스 후드 자켓">
+                                    <p class="plus_bg"><span><i class="fas fa-plus"></i></span></p>
+                                </div>
+                                <div>
+                                    <p class="bold ellipsis1">테그 남성 플리스 후드 자켓</p>
+                                </div>
+                            </a>
+                            <p class="color">179,000원</p>
+                        </li>
+                    </ul>
+                    <ul class="fc">
+                        <li>
+                            <a href="#none">
+                                <div>
+                                    <img src="images/pyxiver_long.png" alt="픽시버G 튜브 구스다운">
+                                    <p class="plus_bg"><span><i class="fas fa-plus"></i></span></p>
+                                </div>
+                                <div>
+                                    <p class="bold ellipsis1">픽시버G (PYXIVER) 튜브 구스다운 경량패딩</p>
+                                </div>
+                            </a>
+                            <p class="color">159,000원</p>
+                        </li>
+                        <li>
+                            <a href="#none">
+                                <div>
+                                    <img src="images/bigLogo_leggings.png" alt="플렉스 데일리 빅로고 레깅스">
+                                    <p class="plus_bg"><span><i class="fas fa-plus"></i></span></p>
+                                </div>
+                                <div>
+                                    <p class="bold ellipsis1">여성 플렉스 데일리 빅로고 레깅스</p>
+                                </div>
+                            </a>
+                            <p class="color">79,000원</p>
+                        </li>
+                        <li>
+                            <a href="#none">
+                                <div>
+                                    <img src="images/tech_hd_fleece_kids.jpg" alt="키즈 패밀리플리스 후드">
+                                    <p class="plus_bg"><span><i class="fas fa-plus"></i></span></p>
+                                </div>
+                                <div>
+                                    <p class="bold ellipsis1">키즈 패밀리 테그 플리스 후드 자켓</p>
+                                </div>
+                            </a>
+                            <p class="color">119,000원</p>
+                        </li>
+                        <li>
+                            <a href="#none">
+                                <div>
+                                    <img src="images/pocket_mtm.jpg" alt="포켓 맨투맨">
+                                    <p class="plus_bg"><span><i class="fas fa-plus"></i></span></p>
+                                </div>
+                                <div>
+                                    <p class="bold ellipsis1">포켓 맨투맨</p>
+                                </div>
+                            </a>
+                            <p class="color">55,000원</p>
+                        </li>
+                    </ul>
+                </div>
+    
+                <div class="tab_content">
+                    <div class="p_n_but">
+                        <div class="p_but"> 
+                            <img src="images/btn_prev01.png" alt="이전 버튼">
+                         </div>
+                        <div class="n_but"> 
+                            <img src="images/btn_next01.png" alt="다음 버튼">
+                         </div>
+                     </div>
+                    <ul class="fc">
+                        <li>
+                            <a href="#none">
+                                <div>
+                                    <img src="images/tech_hd_fleece_black.png" alt="테그 남성 플리스">
+                                    <p class="plus_bg"><span><i class="fas fa-plus"></i></span></p>
+                                </div>
+                                <div>
+                                    <p class="bold ellipsis1">테그 남성 플리스 후드 자켓</p>
+                                </div>
+                            </a>
+                            <p class="color">179,000원</p>
+                        </li>
+                        <li>
+                            <a href="#none">
+                                <div>
+                                    <img src="images/loversHd2.png" alt="러버스 베이직 후드지업">
+                                    <p class="plus_bg"><span><i class="fas fa-plus"></i></span></p>
+                                </div>
+                                <div>
+                                    <p class="bold ellipsis1">러버스 베이직 후드지업</p>
+                                </div>
+                            </a>
+                            <p class="color">119,000원</p>
+                        </li>
+                        <li>
+                            <a href="#none">
+                                <div>
+                                    <img src="images/dihas.png" alt="남성 디하스 패딩 베스트">
+                                    <p class="plus_bg"><span><i class="fas fa-plus"></i></span></p>
+                                </div>
+                                <div>
+                                    <p class="bold ellipsis1">남성 디하스 (DIHAS) 브이넥 튜브 구스다운 패딩베스트</p>
+                                </div>
+                            </a>
+                            <p class="color">129,000원</p>
+                        </li>
+                        <li>
+                            <a href="#none">
+                                <div>
+                                    <img src="images/loganmtm.png" alt="로건(LOGAN) 맨투맨">
+                                    <p class="plus_bg"><span><i class="fas fa-plus"></i></span></p>
+                                </div>
+                                <div>
+                                    <p class="bold ellipsis1">겨울 베이직 로건(LOGAN) 맨투맨</p>
+                                </div>
+                            </a>
+                            <p class="color">89,000원</p>
+                        </li>
+                    </ul>
+                    <ul class="fc">
+                        <li>
+                            <a href="#none">
+                                <div>
+                                    <img src="images/tech_hd_w.png" alt="테그 여성 플리스">
+                                    <p class="plus_bg"><span><i class="fas fa-plus"></i></span></p>
+                                </div>
+                                <div>
+                                    <p class="bold ellipsis1">테그 여성 플리스 후드 자켓</p>
+                                </div>
+                            </a>
+                            <p class="color">179,000원</p>
+                        </li>
+                        <li>
+                            <a href="#none">
+                                <div>
+                                    <img src="images/loverslogoHd.png" alt="러버스 로고그래픽 후드지업">
+                                    <p class="plus_bg"><span><i class="fas fa-plus"></i></span></p>
+                                </div>
+                                <div>
+                                    <p class="bold ellipsis1">러버스 로고그래픽 후드지업</p>
+                                </div>
+                            </a>
+                            <p class="color">139,000원</p>
+                        </li>
+                        <li>
+                            <a href="#none">
+                                <div>
+                                    <img src="images/pyxiver2.png" alt="픽시버G 튜브 구스다운">
+                                    <p class="plus_bg"><span><i class="fas fa-plus"></i></span></p>
+                                </div>
+                                <div>
+                                    <p class="bold ellipsis1">픽시버G (PYXIVER) 튜브 구스다운 경량 패딩베스트</p>
+                                </div>
+                            </a>
+                            <p class="color">109,000원</p>
+                        </li>
+                        <li>
+                            <a href="#none">
+                                <div>
+                                    <img src="images/loganmtm.png" alt="로건(LOGAN) 맨투맨">
+                                    <p class="plus_bg"><span><i class="fas fa-plus"></i></span></p>
+                                </div>
+                                <div>
+                                    <p class="bold ellipsis1">겨울 베이직 로건(LOGAN) 맨투맨</p>
+                                </div>
+                            </a>
+                            <p class="color">89,000원</p>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="tab_content">
+                    <div class="p_n_but">
+                       <div class="p_but"> 
+                           <img src="images/btn_prev01.png" alt="이전 버튼">
+                        </div>
+                       <div class="n_but"> 
+                           <img src="images/btn_next01.png" alt="다음 버튼">
+                        </div>
+                    </div>
+                    <ul class="fc">
+                        <li>
+                            <a href="#none">
+                                <div>
+                                    <img src="images/bucket.png" alt="버킷 디워커 V2">
+                                    <p class="plus_bg"><span><i class="fas fa-plus"></i></span></p>
+                                </div>
+                                <div>
+                                    <p class="bold ellipsis1">버킷 디워커 V2</p>
+                                </div>
+                            </a>
+                            <p class="color">139,000원</p>
+                        </li>
+                        <li>
+                            <a href="#none">
+                                <div>
+                                    <img src="images/pictor.png" alt="픽토르 구스다운 경량패딩">
+                                    <p class="plus_bg"><span><i class="fas fa-plus"></i></span></p>
+                                </div>
+                                <div>
+                                    <p class="bold ellipsis1">픽토르 U 구스다운 경량패딩</p>
+                                </div>
+                            </a>
+                            <p class="color">159,000원</p>
+                        </li>
+                        <li>
+                            <a href="#none">
+                                <div>
+                                    <img src="images/loversHd.png" alt="러버스 베이직 후드집업">
+                                    <p class="plus_bg"><span><i class="fas fa-plus"></i></span></p>
+                                </div>
+                                <div>
+                                    <p class="bold ellipsis1">러버스 베이직 후드집업</p>
+                                </div>
+                            </a>
+                            <p class="color">119,000원</p>
+                        </li>
+                        <li>
+                            <a href="#none">
+                                <div>
+                                    <img src="images/tech_hd_fleece.png" alt="테그 남성 플리스 후드 자켓">
+                                    <p class="plus_bg"><span><i class="fas fa-plus"></i></span></p>
+                                </div>
+                                <div>
+                                    <p class="bold ellipsis1">테그 남성 플리스 후드 자켓</p>
+                                </div>
+                            </a>
+                            <p class="color">179,000원</p>
+                        </li>
+                    </ul>
+                    <ul class="fc">
+                        <li>
+                            <a href="#none">
+                                <div>
+                                    <img src="images/pyxiver.png" alt="픽시버G 튜브 구스다운">
+                                    <p class="plus_bg"><span><i class="fas fa-plus"></i></span></p>
+                                </div>
+                                <div>
+                                    <p class="bold ellipsis1">픽시버G (PYXIVER) 튜브 구스다운 경량패딩</p>
+                                </div>
+                            </a>
+                            <p class="color">159,000원</p>
+                        </li>
+                        <li>
+                            <a href="#none">
+                                <div>
+                                    <img src="images/bigLogo_leggings.png" alt="플렉스 데일리 빅로고 레깅스">
+                                    <p class="plus_bg"><span><i class="fas fa-plus"></i></span></p>
+                                </div>
+                                <div>
+                                    <p class="bold ellipsis1">여성 플렉스 데일리 빅로고 레깅스</p>
+                                </div>
+                            </a>
+                            <p class="color">79,000원</p>
+                        </li>
+                        <li>
+                            <a href="#none">
+                                <div>
+                                    <img src="images/tech_hd_fleece_kids.jpg" alt="키즈 패밀리플리스 후드">
+                                    <p class="plus_bg"><span><i class="fas fa-plus"></i></span></p>
+                                </div>
+                                <div>
+                                    <p class="bold ellipsis1">키즈 패밀리 테그 플리스 후드 자켓</p>
+                                </div>
+                            </a>
+                            <p class="color">119,000원</p>
+                        </li>
+                        <li>
+                            <a href="#none">
+                                <div>
+                                    <img src="images/pocket_mtm.jpg" alt="포켓 맨투맨">
+                                    <p class="plus_bg"><span><i class="fas fa-plus"></i></span></p>
+                                </div>
+                                <div>
+                                    <p class="bold ellipsis1">포켓 맨투맨</p>
+                                </div>
+                            </a>
+                            <p class="color">55,000원</p>
+                        </li>
+                    </ul>
+                </div>
+    
+                
+    
+            </div> <!-- id="content01" -->
+    
+            <div id="sub_bn">
+                <div class="txt">
+                    <p>BUCKET DWALKER V2</p>
+                    <p>한 해의 시작! 새로운 컬러와 함께</p>
+                </div>
+            </div>
+
+            <div id="content02" class="fc">
+                <div id="review">
+                    <div class="review_tit">
+                        <h2>BEST 리뷰</h2>
+                        <a href="#none">+더보기</a>
+                    </div>
+                    <ul class="fc">
+                        <li class="fc">
+                            <div class="review_img">
+                                <a href="#none">
+                                    <img src="images/review01.png" alt="">
+                                </a>
+                            </div>
+                            <div class="review_content1">
+                                <div class="review_star">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                                <div class="review_info">(컬러:black / 사이즈:95)</div>
+                                <div class="review_id"> hong** </div>
+                                <div class="review_date">2021-02-18</div>
+                            </div>
+                            <div class="review_contents">
+                                <a href="#none" class="ellipsis2">편한데 이뻐요!!</a>
+                            </div>
+                        </li>
+                        <li class="fc">
+                            <div class="review_img">
+                                <a href="#none">
+                                    <img src="images/review02.png" alt="">
+                                </a>
+                            </div>
+                            <div class="review_content1">
+                                <div class="review_star">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                                <div class="review_info">(컬러:Orange / 사이즈:100)</div>
+                                <div class="review_id"> seo** </div>
+                                <div class="review_date">2021-02-18</div>
+                            </div>
+                            <div class="review_contents">
+                                <a href="#none" class="ellipsis2">아이가 너무 좋아해요. 다른 색도 사달라고 하네요 ㅎㅎ</a>
+                            </div>
+                        </li>
+                        <li class="fc">
+                            <div class="review_img">
+                                <a href="#none">
+                                    <img src="images/review03.png" alt="">
+                                </a>
+                            </div>
+                            <div class="review_content1">
+                                <div class="review_star">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                                <div class="review_info">(컬러:black / 사이즈:s)</div>
+                                <div class="review_id"> won** </div>
+                                <div class="review_date">2021-02-15</div>
+                            </div>
+                            <div class="review_contents">
+                                <a href="#none" class="ellipsis2">간절기에 입기 좋아요</a>
+                            </div>
+                        </li>
+                        <li class="fc">
+                            <div class="review_img">
+                                <a href="#none">
+                                    <img src="images/review04.png" alt="">
+                                </a>
+                            </div>
+                            <div class="review_content1">
+                                <div class="review_star">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                </div>
+                                <div class="review_info">(컬러:black / 사이즈:)</div>
+                                <div class="review_id"> hsw** </div>
+                                <div class="review_date">2021-02-11</div>
+                            </div>
+                            <div class="review_contents">
+                                <a href="#none" class="ellipsis2">여행 갈 때 쓰려고 구매했습니다. 수납공간도 좋고 너무 맘에 들어요!!</a>
+                            </div>
+                        </li>
+                        
+                    </ul>
+                    
+                </div> <!-- id="review" -->
+
+                <div id="event">
+                    <div class="event_tit">
+                        <h2>EVENT</h2>
+                        <a href="#none">+더보기</a>
+                    </div>
+                    <div>
+                        <div class="event1">
+                            <a href="#none"><img src="images/event1_1.png" width="590" height="155" alt="이벤트1"></a>
+                        </div>
+                        <div class="event2">
+                        <a href="#none"><img src="images/event2_2.png" width="590" height="155" alt="이벤트2"></a>
+                        </div>
+                    </div>
+
+                </div>
+            </div> <!-- id="content02" -->
+
+            <div id="content03">
+                <div>
+                    <h2>PROMOTION</h2>
+                </div>
+
+                <ul class="fc">
+                    <li>
+                        <a href="#none">
+                            <img src="images/promotion1.jpg" width="390" alt="">
+                        </a>
+                        <span class="tit">21SS LOVERS HOODIE ZIP-UP</span>
+                        <p class="ellipsis3">디스커버리의 러버스 컬렉션을 소개합니다! <br> 2021-02-03~2022-12-31</p>
+
+                    </li>
+                    <li>
+                        <a href="#none">
+                            <img src="images/promotion2.jpg" width="390" alt="">
+                        </a>
+                        <span class="tit">WONEN'S SHORT OUTER</span>
+                        <p class="ellipsis3">세상 포근한 겨울을 보내는 그녀만의 스타일링 <br> 2021-01-25~2022-12-31</p>
+                    </li>
+                    <li>
+                        <a href="#none">
+                            <img src="images/promotion3.jpg" width="390" alt="">
+                        </a>
+                        <span class="tit">LET'S GO TO SCHOOL!</span>
+                        <p class="ellipsis3">패셔니키즈가 애정하는 디스커버리 아이템들을 만나보세요. <br> 2021-01-25~2022-12-31</p>
+                    </li>
+                </ul>
+            </div> <!-- id="content03" -->
+    
+            <div id="content04">
+                <div class="style_sns">
+                    <h2>#STYLE in SNS</h2>
+                    <ul class="fc">
+                        <li>
+                            <a href="#none">
+                                <img src="images/sns1.jpg" width="300" height="320" alt="">
+                                <p class="sns_bg"><span>@jjj_**</span></p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#none">
+                                <img src="images/sns2.jpg" width="300" height="320" alt="">
+                                <p class="sns_bg"><span>@da_**</span></p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#none">
+                                <img src="images/sns5.jpg" width="300" height="320" alt="">
+                                <p class="sns_bg"><span>@yoonc**</span></p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#none">
+                                <img src="images/sns7.jpg" width="300" height="320" alt="">
+                                <p class="sns_bg"><span>@dalkom**</span></p>
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="more">
+                        <a href="#none">더보기</a>
+                    </div>
+                </div>
+            </div> <!-- id="content04" -->
+            
+        </div> <!-- id="main_contents" -->
+    
+        <footer>
+            <div id="footer">
+                <div id="footer_top">
+                    <p>Discovery 온라인 공식몰은 구매금액 관계없이 전상품 무료배송!</p>
+                </div>
+    
+                <div id="footer_m_b">
+                    <div id="footer_m" class="fc">
+                        <div class="m_l">
+                            <ul class="fc">
+                                <li><a href="#none">ABOUT DISCOVERY &nbsp;</a></li>
+                                <li><a href="#none"> &nbsp; &nbsp;I AM A DISCOVERER</a></li>
+                            </ul>
+            
+                            <ul class="fc">
+                                <li><a href="#none">공지사항 &nbsp;</a></li>
+                                <li><a href="#none">&nbsp;&nbsp;매장안내&nbsp;</a></li>
+                                <li><a href="#none">&nbsp;&nbsp;단체구매문의&nbsp;</a></li>
+                                <li><a href="#none">&nbsp;&nbsp;제휴문의&nbsp;</a></li>
+                                <li><a href="#none">&nbsp;&nbsp;대리점 개설문의&nbsp;</a></li>
+                                <li><a href="#none">&nbsp;&nbsp;고객센터&nbsp;</a></li>
+                                <li><a href="#none">&nbsp;&nbsp;1:1고객상담</a></li>
+                            </ul>
+            
+                           <div>
+                                <p>
+                                    서울특별시 강남구 언주로 541 에프앤에프빌딩 호 (주)에프앤에프
+                                </p>
+                                <p>교환.반품 반송처 : (17384) 경기도 이천시 마장면 프리미엄아울렛로 113-37 F&F 물류센터 디스커버리 물류부</p>
+                                <p>E-MAIL : discovery@.com  |  FAX : 02-123-456</p>
+                                <p>ⓒ2021 hong seo won. All Rights Reserved. <br></p>
+                           </div>
+                        </div>
+        
+                       <div class="m_r fc">
+                            <div class="sns_icon"><a href="#none"><i class="fab fa-facebook"></i></a></div>
+                            <div class="sns_icon"><a href="#none"><i class="fab fa-instagram"></i></a></div>
+                            <div></div>
+                       </div>
+                    </div>
+        
+                    <div id="footer_b">
+                        <ul>
+                            <li><a href="#none">개인정보처리방침</a></li>
+                            <li><a href="#none">이용약관</a></li>
+                            <li><a href="#none">이메일 무단 수집 거부</a></li>
+                            <li class="b_bg"><a href="#none">KCP 안전구매서비스 기업 &gt;</a></li>
+                            <li><a href="#none">sns 저작물 이용 동의서</a></li>
+                        </ul>
+                        
+                        <div class="language">
+                            <p>LANGUAGE</p>
+                            <select name="language" class="langcell">
+                                <option value="KR">KR</option>
+                                <option value="English">English</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+            </div> <!-- id="footer" -->
+        </footer>
+        
+    </div>
+</body>
+</html>

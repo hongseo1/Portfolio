@@ -1,0 +1,37 @@
+@charset "utf-8";
+
+html{overflow-y: hidden;}
+*{margin: 0; padding: 0; border:0; font-family:"맑은 고딕",sans-serif,arial;}
+img{border: 0; vertical-align: middle;}
+
+
+
+.re_page{
+    width: 100%; height: 100%;
+}
+
+.re_bg{
+    background-color: #6CDAD3;
+    width: 100%; height: 100%;
+    padding-top: 150px;
+}
+
+.re_bg h1{
+    color: white;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.re_bg img{
+    display: block;
+    width: 180px; height: 180px;
+    margin: 0 auto; margin-bottom: 20px;
+}
+
+.re_bg p{
+    color: white;
+    text-align: center;
+    font-size: 18px;
+}
+
+.typed-cursor{display: none;}

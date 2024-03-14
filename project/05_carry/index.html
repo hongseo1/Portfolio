@@ -1,0 +1,227 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CARRY</title>
+
+    <link rel="stylesheet" href="css/swiper.min.css">
+    <link rel="stylesheet" href="css/jquery.lightbox-0.5.css">
+    <link rel="stylesheet" href="css/jquery.mobile-1.4.5.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <script src="js/swiper.min.js"></script>
+    <script src="js/jquery.mobile-1.4.5.min.js"></script>
+    <script src="js/jquery.lightbox-0.5.js"></script>
+    <script src="js/script.js"></script>
+</head>
+<body>
+    
+    <!-- home -->
+    <div data-role="page" id="home" class="main">
+
+        <div data-role="header" data-position="fixed" id="header">
+
+            <h1><a href="#home" class="home_logo"><img src="images/text_logo.png" height="30" alt="로고"></a></h1>
+
+            <a href="#panel1" data-role="none" class="menu ui-btn-right"><img src="images/menu_icon.png" width="28" alt="메뉴"></a>
+
+            <div class="search">
+                <input type="search" data-role="none" placeholder="어떤 여행을 찾고있나요?">
+                <img src="images/search.png"  class="search_img" alt="">
+            </div>
+
+        </div>
+
+        <!-- side_panel1 -->
+        <div id="panel1" data-role="panel" data-position="right" data-display="overlay" class="side_panel">
+
+            <div class="ui-panel-inner cf">
+                <div class="logo"><img src="images/text_logo.png" width="130" alt="" /></div>
+                <div class="profile">
+                    <img src="images/profile_img.png" width="130" alt="">
+                    <p>아이디</p>
+                </div>
+                <div class="side_panel_icon">
+                    <ul>
+                        <li>
+                            <a href="#none"><img src="" alt=""></a>
+                            <p>여행중</p>
+                        </li>
+                        <li>
+                            <a href="#none"><img src="" alt=""></a>
+                            <p>추억여행</p>
+                        </li>
+                        <li>
+                            <a href="#none"><img src="" alt=""></a>
+                            <p>일정</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div data-role="content" class="menu_list">
+                <ul class="one-depth">
+                    <li data-role="collapsible" data-iconpos="right" class="ui-nodisc-icon">
+                        <h3>여행지</h3>
+                        <ul data-role="listview">
+                            <li><a href="#none">계절별</a></li>
+                            <li><a href="#none">테마별</a></li>
+                            <li><a href="#none">축제</a></li>
+                        </ul>
+
+                    </li>
+                    <li data-role="collapsible" data-iconpos="right" class="ui-nodisc-icon">
+                        <h3>여행자 리뷰</h3>
+                    </li>
+                    <li data-role="collapsible" data-iconpos="right" class="ui-nodisc-icon">
+                        <h3>포인트</h3>
+                    </li>
+                </ul>
+            </div>
+
+            <ul class="insta">
+                <li><a href="#none">공지사항</a></li>
+                <li><a href="#none">고객센터</a></li>
+            </ul>
+
+        </div> <!-- side_panel1 -->
+
+        <div data-role="contetn">
+            <div id="main_img">
+                <div id="slide_img_wrap1">
+                  <ul class="cf">
+                    <li class="visual_0"><a href="#"><img src="images/home_bn01.png" alt="배너1" /></a></li>
+                    <li class="visual_1"><a href="#"><img src="images/home_bn02.png" alt="배너2" /></a></li>
+                  </ul>
+                </div>
+                <div class="slide_num">
+                  <ul>
+                    <li class="on"><a href="#">1</a></li>
+                    <li><a href="#">2</a></li>
+                    <li><a href="#">3</a></li>
+                  </ul>
+                </div>
+                <div id="btnImg">
+                    <img src="img/slide-left.png" alt="이전버튼" width="20" height="30" class="prev">
+                    <img src="img/slide-right.png" alt="다음버튼" width="20" height="30" class="next">
+                </div>
+            </div><!-- id="main_img" -->
+
+            <div id="swiper">
+                <h3>당신의 여행을 도와드릴게요!</h3>
+                <!-- 아이콘 스와이퍼 -->
+                <div id="icon_swiper">
+                    <div class="swiper-container">
+                        <div class="swiper-wrapper">
+            
+                            <div class="swiper-slide">
+                                <a href="#none"><div class="icon1"></div><div class="text">여행지 추천</div></a>
+                            </div>
+
+                            <div class="swiper-slide">
+                                <a href="#none"><div class="icon2"></div><div class="text">축제</div></a>
+                            </div>
+
+                            <div class="swiper-slide">
+                                <a href="#none"><div class="icon3"></div><div class="text">액티비티</div></a>
+                            </div>
+
+                            <div class="swiper-slide">
+                                <a href="#none"><div class="icon4"></div><div class="text">숙소예약</div></a>
+                            </div>
+
+                            <div class="swiper-slide">
+                                <a href="#none"><div class="icon5"></div><div class="text">기차예매</div></a>
+                            </div>
+
+                            <div class="swiper-slide">
+                                <a href="#none"><div class="icon6"></div><div class="text">항공권예매</div></a>
+                            </div>
+
+                        </div>
+                    </div><!-- <div class="swiper-container"> -->
+                </div>
+            </div><!-- 아이콘 스와이퍼 -->
+
+            <div id="travel_info">
+                <h3>여행지 예보</h3>
+                <form action="#">
+                   <div class="info01 fc">
+                       <h4>목적지</h4>
+                       <select name="info" class="info01_content" data-role="none">
+                        <option value="목적지 선택" selected>목적지 선택</option>
+                        <option value="서울">서울</option>
+                        <option value="인천">인천</option>
+                        <option value="대전">대전</option>
+                        <option value="대구">대구</option>
+                        <option value="광주">광주</option>
+                        <option value="부산">부산</option>
+                        <option value="울산">울산</option>
+                        <option value="세종">세종</option>
+                        <option value="경기">경기</option>
+                        <option value="강원">강원</option>
+                        <option value="충북">충북</option>
+                        <option value="충남">충남</option>
+                        <option value="경북">경북</option>
+                        <option value="경남">경남</option>
+                        <option value="전북">전북</option>
+                        <option value="전남">전남</option>
+                        <option value="제주">제주</option>
+                        </select>                
+                       <input type="button" value="선택" data-inline="true">
+                   </div>
+                   <div class="info02 fc">
+                       <h4>여행일자</h4>    
+                       <input type="date" placeholder="2021-04-02" class="info02_content" data-role="none">
+                       <div class="search">
+                           <input type="button" value="검색" data-inline="true">
+                        </di>
+                       <div class="button"><input type="button" value="상세검색으로" data-inline="true"></div>
+                   </div>
+                   <div class="info03 fc">
+                        <h4>지역별 여행지 검색</h4> <br>
+                        <select name="info" class="info03_content" data-role="none">
+                        <option value="지역 선택" selected>지역 선택</option>
+                        <option value="서울">서울</option>
+                        <option value="인천">인천</option>
+                        <option value="대전">대전</option>
+                        <option value="대구">대구</option>
+                        <option value="광주">광주</option>
+                        <option value="부산">부산</option>
+                        <option value="울산">울산</option>
+                        <option value="세종">세종</option>
+                        <option value="경기">경기</option>
+                        <option value="강원">강원</option>
+                        <option value="충북">충북</option>
+                        <option value="충남">충남</option>
+                        <option value="경북">경북</option>
+                        <option value="경남">경남</option>
+                        <option value="전북">전북</option>
+                        <option value="전남">전남</option>
+                        <option value="제주">제주</option>
+                        </select> 
+                       <input type="button" value="선택" data-inline="true">
+                       <input type="button" value="검색" data-inline="true">
+                   </div>
+                </form>
+            </div>
+
+            <div id="recommend">
+                <h3>테마별 추천</h3>
+                <ul class="recommend_cont">
+                    <li><a href="#none"><img src="images/recommend01.png" alt=""></a></li>
+                    <li><a href="#none"><img src="images/recommend02.png" alt=""></a></li>
+                    <li><a href="#none"><img src="images/recommend03.png" alt=""></a></li>
+                    <li><a href="#none"><img src="images/recommend04.png" alt=""></a></li> 
+                </ul>
+                <a href="#none" data-role="button">추천 더보기</a>
+            </div>
+
+        </div>
+
+    </div><!-- home -->
+
+</body>
+</html>

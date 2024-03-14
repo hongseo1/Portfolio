@@ -1,0 +1,629 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
+/*--- layout ---*/
+html{overflow-y: scroll;}
+*{margin: 0; padding: 0; border: 0; outline: 0;}
+body{font-family: 'Nanum Gothic', sans-serif;}
+ul,ol,li{list-style: none;}
+a{text-decoration: none;
+}
+#wrap{margin-top: 25px; }
+
+header{
+    width: 100%;
+    height: 172px;
+}
+
+
+/*로고 회원가입..*/
+nav{
+    width: 1184px;
+    height: 70px;
+    margin: 0 auto;
+    font-size: 12px;
+    position: relative;
+
+}
+
+nav .logo_top{
+    width: 70px; height: 70px;
+    margin: 0 auto;
+}
+nav .nav_lang{
+    position: absolute;
+    top: 29px;
+    right: 0;
+}
+
+.nav_lang > ul > li{
+    float: left;
+    padding-left: 10px;
+    height: 30px;
+    line-height: 30px;
+}
+.nav_lang > ul > li > a{color: black; padding: 0 10px 0 10px;}
+
+.nav_lang .langcell{
+    background: url(../images/lang.png) no-repeat 86% center;
+    width: 80px;
+    height: 30px;
+    line-height: 30px;
+    padding: 0 10px 0 10px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -o-appearance: none;
+    -ms-appearance: none;
+    appearance: none;
+    border: 1px solid #000000;
+}
+
+select::-ms-expand{display: none;}
+
+/*메뉴*/
+#nav1 li{float: left;}
+
+#nav1{
+    width: 100%;
+    height: 52px;
+    background-color: #93c152;
+    margin-top: 25px;
+    position: relative;
+    z-index: 100;
+}
+
+#nav1 > .nav_contents{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+#nav1 > .nav_contents > ul{
+    width: 1000px;
+    height: 52px;
+    margin: 0 auto;
+    overflow: hidden;
+    -webkit-transition: height 0.4s;
+    transition: height 0.4s;
+    float: left;
+}
+#nav1 > .nav_contents > ul > li{
+    float: left;
+    width: 200px;
+    text-align: left;
+    font-size: 16px;
+}
+#nav1 > .nav_contents > ul > li > a{ 
+    display: block;
+    padding: 0 40px;
+    height: 52px;
+    line-height: 52px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+#nav1:hover  ul {
+    height: 300px;
+}
+
+ /*서브메뉴*/
+#nav1 ul ul a{
+    display: block;
+    padding: 0 35px 0 40px;
+    line-height: 38px;
+    font-weight: 400;
+    color: #ffffff;
+    -webkit-transition: all 300ms;
+    transition: all 300ms;
+}
+
+.sub_box{
+position: absolute;
+left: 0;
+top: 120px;
+z-index: 10;
+width: 100%;
+height: 0;
+background-color: rgba(225, 225, 225, 0.2);
+-webkit-transition: height 0.4s;
+transition: height 0.4s;
+}
+
+#nav1:hover ~ .sub_box{
+height: 250px;
+}
+
+#nav1 ul ul a:hover{
+
+text-decoration: underline;
+}
+
+#nav1 ul ul li:first-child a{
+padding-top: 5px;
+}
+#nav1 ul ul li:last-child a{
+padding-bottom: 5px;
+}
+
+
+
+/*메뉴 아이콘*/
+.navplus{
+    float: right;
+    
+}
+
+.navplus li{
+    float: left;
+    margin-right: 10px;
+    margin: 10px;
+}
+
+.navplus li img{width: 25px;}
+
+
+
+/*배너*/
+#bn_main{
+    width: 100%;
+    height: 710px;
+    position: relative;
+    left: 0;
+    top: -25px;
+    background: url(../images/bn_main2.png) no-repeat;
+    background-size: cover;
+    background-position: center center;
+
+}
+
+#bn_main > .bn_text{
+    width: 550px;
+    height: 710px;
+    margin: 0 auto;
+    font-size: 50px;
+    color: #ffffff;
+    position: relative;
+    font-family: 'Nanum Pen Script', cursive;
+    font-size: 75px;
+
+
+}
+
+#bn_main > .bn_text > p{
+    width: 550px;
+    margin: 0 auto;
+    position: absolute;
+    top: 200px;
+}
+
+#bn_main .circle{
+    width: 1200px; height: 13px;
+    margin: -52px auto 0;
+}
+
+#bn_main .circle > ul{
+    width: 59px; height: 13px;
+    margin: 0 auto;
+}
+
+#bn_main .circle > ul > li{
+    width: 13px; height: 13px;
+    background-color: rgba(225, 225, 225, 0.8);
+    border-radius: 100px;
+    float: left;
+    margin-right: 7px;
+}
+
+#bn_main .circle > ul > li:last-child{
+    margin-right: 0;
+}
+
+/*section*/
+section{
+    width: 1200px;
+    height: auto;
+    margin: 120px auto 92px;
+    position: relative;
+    top: -25px;
+}
+
+/*best, set 공통*/
+
+.review_txt{
+    position: absolute;
+    top: 40px;
+    right: 80px;
+}
+
+.re:after{
+    content: ' | ';
+    
+}
+
+section .arrowbut{
+    position: absolute;
+    right: 0;
+    top: 40px;
+}
+
+.name{
+    font-weight: bold;
+    font-size: 18px;
+    width: 243px;
+    text-align: center;
+}
+.color{
+    color: #bcd13a;
+    font-size: 16px;
+    width: 243px;
+    text-align: center;
+    margin-top: -15px;
+}
+
+
+/*best상품*/
+section .product_best{
+    width: 1200px;
+    height: 460px;
+    font-family: "맑은 고딕", sans-serif;
+    position: relative;
+}
+
+section .product_best > p{
+    color: black;
+    padding: 10px 10px 10px 0;
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+section .product_best .but1{
+    margin-right: 26px;
+}
+
+section .product_best > p > a > img{
+    width: 31px;
+    height: 27px;
+    margin-top: 2px;
+    margin-left: 1px;
+}
+
+section .product_best > ul{
+    margin-top: 40px;
+}
+
+section .product_best > ul > li{
+    float: left;
+    width: 243px;
+    height: 300px;
+    margin-right: 76px;
+}
+
+section .product_best > ul > li > a{
+    display: block;
+}
+
+section .product_best > ul > li:last-child{
+    margin-right: 0;
+}
+
+section .product_best > ul > li span{
+    display: block;
+}
+
+section .product_best .line{
+    width: 1200px; height: 6px;
+    margin: 0 auto;
+    background: url(../images/line.png) no-repeat center bottom;
+    position: absolute;
+    bottom: 0;
+
+}
+
+/*세트상품*/
+
+section .product_set{
+    width: 1200px;
+    height: 460px;
+    margin-top: 120px;
+    position: relative;
+    font-family: "맑은 고딕", sans-serif;
+}
+
+section .product_set > p{
+    color: black;
+    padding: 10px 10px 10px 0;
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+
+section .product_set .but1{
+    margin-right: 26px;
+}
+
+section .product_set > p > a > img{
+    width: 31px;
+    height: 27px;
+    margin-top: 2px;
+    margin-left: 1px;
+}
+
+section .product_set > ul{
+    margin-top: 40px;
+}
+
+section .product_set > ul > li{
+    float: left;
+    width: 243px;
+    height: 300px;
+    margin-right: 76px;
+}
+
+section .product_set > ul > li > a{
+    display: block;
+}
+
+section .product_set > ul > li:last-child{
+    margin-right: 0;
+}
+
+section .product_set > ul > li span{
+    display: block;
+}
+
+section .product_set .line{
+    width: 1200px; height: 6px;
+    margin: 0 auto;
+    background: url(../images/line.png) no-repeat center bottom;
+    position: absolute;
+    bottom: 0;
+
+}
+
+.ellipse > span{
+    
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+/*광고영상*/
+
+section .video{
+    width: 1200px;
+    height: 545px;
+    margin-top: 120px;
+    font-family: "맑은 고딕", sans-serif;
+    position: relative;
+    font-size: 15px;
+}
+
+section .video > div{
+    width: 920px;
+    margin: 50px auto 0;
+}
+
+.video p span{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.video p a{
+    color: #000000;
+}
+/*맞춤추천*/
+
+section .recommend{
+    width: 1200px;
+    height: 456px;
+    margin-top: 120px;
+    position: relative;
+    font-family: "맑은 고딕", sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.recommend ul{
+    height: 356px;
+    position: absolute;
+    bottom: 0;
+}
+
+section .recommend > ul >li{
+    width: 348px;
+    height: 356px;
+    float: left;
+    margin-right: 78px;
+    font-size: 16px;
+    font-weight: normal;
+}
+
+section .recommend > ul >li:last-child{
+    margin-right: 0;
+}
+
+.recommend ul li a{
+    color: #000000;
+    line-height: 30px;
+}
+
+.recommend ul li a img:hover{
+    transform: scale(1.1);
+}
+
+/*sns*/
+
+section .sns{
+    width: 1200px;
+    height: 286px;
+    margin-top: 120px;
+    position: relative;
+    font-family: "맑은 고딕", sans-serif;
+    font-weight: 500;
+    font-size: 23.16px;
+}
+
+.sns ul{
+    position: absolute;
+    bottom: 0;
+    z-index: 100;
+}
+
+.sns ul li{
+    float: left;
+    width: 300px;
+    height: 218px;
+
+}
+
+.sns .img_shadow{
+    width: 300px;
+    height: 218px;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    z-index: 200;
+    top: 0;
+    opacity: 0;
+}
+
+.sns .img_shadow p{
+    color: #ffffff;
+    text-align: center;
+    margin-top: 101px;
+    font-size: 16px;
+}
+
+.sns .img_shadow:hover{
+    opacity: 1;
+}
+
+/*    .section3-video>li>div>p{ /*검은색배경 투명도로 조절
+    position: absolute; z-index: 2; left: 0; top: 0;
+    width: 100%; height: 100%;
+    background: rgba(0, 0, 0, 0);
+    transition: all 1s;
+}
+.section3-video>li:hover>div>p{
+    background: rgba(0, 0, 0, .8);
+    transition: all 1s;
+}
+.section3-video>li>div>ul{
+    position: absolute; z-index: 3; top: 250px; left: 80px;
+    opacity: 0;
+    transition: all 1s;
+}
+.section3-video>li:hover>div>ul{
+    top: 150px;
+    opacity: 1;
+    transition: all 1s;
+}
+.section3-video>li>div>ul>li{}
+.section3-video>li>div>ul>li>h2{
+    font-size: 25px;
+    color: #ffffff;
+    padding-bottom: 60px;
+}
+.section3-video>li>div>ul>li>p{
+    font-size: 18px;
+    color: #ffffff;
+    padding-bottom: 60px;
+}
+*/
+
+/*footer*/
+footer{
+    width: 100%;
+    height: 210px;
+    margin-top: 72px;
+    background-color: #7d7d7d;
+}
+
+#footer{
+    width: 100%;
+    height: 64px;
+    background-color:  #93c152;
+}
+
+.footer_contents{
+    width: 1200px;
+    height: 210px;
+    margin: 0 auto;
+    font-size: 13px;
+    position: relative;
+}
+
+.footer_contents1{
+    line-height: 64px;
+    position: relative;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.footer_contents1 .footer_menu a{
+    color: #ffffff;
+}
+
+.footer_contents1 .footer_menu a:after{
+    content: ' | ';
+}
+
+.footer_contents1 .footer_menu a:last-child:after{
+    content: '';
+}
+
+.footer_contents1 .footer_menu a:hover{
+    text-decoration: underline;
+}
+
+.footer_contents1 > .rolling_area{
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.footer_contents1 > .rolling_area > a{
+    color: #ffffff;
+}
+
+.footer_info{
+    width: 670px;
+    position: absolute;
+    top: 80px;
+    left: 0;
+    line-height: 20px;
+}
+
+.footer_info a{
+    color: #e2e2e2;
+    font-weight: bold;
+    font-size: 15px;
+    font-style: normal;
+}
+
+.center{
+    position: absolute;
+    top: 80px;
+    left: 670px;
+}
+
+.center a{
+    color: #000000;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.footer_sns{
+    float: right;
+    position: absolute;
+    top: 80px;
+    right: 0;
+}
+
+.footer_sns > ul > li{
+    float: left;
+    margin-left: 10px;
+    
+    
+}
