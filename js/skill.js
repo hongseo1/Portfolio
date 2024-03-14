@@ -9,7 +9,7 @@
  		$charts.find('.num').eq(0).text(90);
 		$charts.find('.num').eq(1).text(85);
 		$charts.find('.num').eq(2).text(95);
-		$charts.find('.num').eq(3).text(85);
+		$charts.find('.num').eq(3).text(90);
 	};
 	
 	$(window).on('scroll',$.throttle(1000/15,function() {
